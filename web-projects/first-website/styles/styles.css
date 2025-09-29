@@ -1,0 +1,51 @@
+
+/* .bitcount-prop-single-ink-<uniquifier> {
+  font-family: "Bitcount Prop Single Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+} */
+html {
+	font-size: 30px;
+	font-family: Bitcount Prop Single Ink;
+	background-color: #FFB347;
+}
+
+body {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #ff9500;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
+
+p,
+li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}

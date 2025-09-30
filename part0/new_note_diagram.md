@@ -3,6 +3,7 @@ sequenceDiagram
     participant browser
     participant server
 
+    Note right of browser: when the server receive a post method it pushes the new note to json file where the old notes are located then it redirect /notes page to show the new changes
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
     server-->>browser: http status code 302 a url redirect
